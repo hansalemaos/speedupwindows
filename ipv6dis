@@ -3,3 +3,5 @@ disable ipv6
 $nic = get-netadapter
 
 Disable-NetAdapterBinding –Name $nic.name –ComponentID ms_tcpip6
+
+https://www.elevenforum.com/t/change-time-zone-in-windows-11.806/
