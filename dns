@@ -1,0 +1,2 @@
+Get-NetAdapter | Select-Object InterfaceAlias , InterfaceIndex
+set-DnsClientServerAddress -InterfaceIndex 11 -ServerAddresses ("8.8.8.8","8.8.4.4")
